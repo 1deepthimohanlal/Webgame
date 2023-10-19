@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bomb game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akari&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>The Bomb Game</h1>
+    <p class="inst"><em>This is a simple game with 15 hidden bombs.
+         You have to defuse the bomb before the timer runs out by
+          finding the<br> location of the key, which you'll get by
+           solving the equation below. Click on the key's location
+            to defuse the bomb.<br> Good luck!</em></p>
+    <button id="start">START GAME</button>
+    <div id="timeDisplay">Time Left:10</div>
+    <p id="info">Solve the problem :</p>
+    <div id="qst"></div>
+    <input type="text" style="width: 70px; height: 35px;" id="txt"><button id="show">check</button>
+    <div id="result"></div>
+    <div class="container">
+        <button class="btn b1">1</button>
+        <button class="btn b2">2</button>
+        <button class="btn b3">3</button>
+        <button class="btn b4">4</button>
+        <button class="btn b5">5</button>
+        <button class="btn b6">6</button>
+        <button class="btn b7">7</button>
+        <button class="btn b8">8</button>
+        <button class="btn b9">9</button>
+        <button class="btn b10">10</button>
+        <button class="btn b11">11</button>
+        <button class="btn b12">12</button>
+        <button class="btn b13">13</button>
+        <button class="btn b14">14</button>
+        <button class="btn b15">15</button>
+        <button class="btn b16">16</button>
+    </div>
+    
+    <div id="endScreen">
+    <div id ="endScreenContent">
+    <h2 id="txtEndTitle">congratulations</h2> 
+    <h2 id="txtEndMessage">You have successfully diffused the bomb!</h2> 
+    </div>
+    </div>
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
